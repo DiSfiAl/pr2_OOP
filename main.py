@@ -16,6 +16,8 @@ for _ in range(5):
     randomMatrix = Matrix(cols, rows)
     randomMatrix.setNumbers(generateRandomMatrix(cols, rows))
     matrixArray.append(randomMatrix)
+    randomMatrix.minNumber()
+    randomMatrix.maxNumber()
 
 sorter = Sort(matrixArray)
 sorter.showAllMatrix()
